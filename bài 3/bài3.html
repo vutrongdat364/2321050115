@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <MARQUEE>sos</MARQUEE>
+    <h1>Bài 3</h1>
+    <!--danh sách (list)-->
+<!--thẻ ol có thứ tự-->
+    <p>danh sách công việc vào buổi sáng</p>
+    <ol>
+        <li>thức dậy</li>
+        <li>ăn sáng</li>
+        <li>đi học</li>
+        <li>giải lao</li>
+    </ol>
+    <!--ul ko có thứ tự-->
+<p>các ngôn ngữ lập trình web</p>
+<ul>
+    <li>python</li>
+    <li>php</li>
+    <li> javascript</li>
+    <li>c#</li>
+    <!---->
+    <h1>Form</h1>
+    <form>
+        <div>
+<b>họ và tên</b>
+<input type="text" name="họ tên" placeholder="nhập tên vào đây">
+        </div>
+        <br>
+                <div>
+<b>họ và tên</b>
+<input type="text" năm="nam" value="2025" readonly>
+        </div>
+        <br>
+        <div>
+            <b>giới thiệu chi tiết về bản thân</b>
+            <br>
+            <textarea name="giới thiệu">nhập thông tin giới thiệu....</textarea>
+            
+        </div>
+        <div>
+            <b>email: </b>
+            <input type="email" name="email" placeholder="dạng @gmail.com" >
+        </div>
+        <div>
+            <b>số điện thoại: </b>
+            <input type="tei" name="số điện thoại" placeholder="dạng số 0*********"
+            required pattern="([0]{1}([0;3;9]{1})([0-9]{8}))" >
+        </div>
+        <div>
+            <b>giới tính</b><br>
+            <input type="radio" name="gioitinh" value="nam" > nam <br>
+            <input type="radio" name="gioitinh" value="nữ" > nữ <br>
+            <input type="radio" name="gioitinh" value="không xác định" > không xác định <br>
+        </div>
+        <div>
+            <b>sở thích</b><br>
+                    game:<input type="checkbox" name="sothich" value="game" > <br>
+                    music:<input type="checkbox" name="sothich" value="music" > <br>
+                    sport:<input type="checkbox" name="sothich" value="sport" > <br>
+        </div><br>
+        <div>
+            <b>trình duyệt ưa thích</b><br>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="internet explorer"></option>
+                <option value="firefox"></option>
+                <option value="chrome"></option>
+                <option value="opera"></option>
+            </datalist><br>
+            <select name="browsers">
+                <option value="internet explorer">internet explorer</option>
+                <option value="firefox">firebox</option>
+                <option value="chrome">chrome</option>
+                <option value="opera">opera</option> 
+                                
+                
+                <option value="safari">safari</option>
+                <option value="cốc cốc">cốc cốc</option>
+            </select>
+
+        </div>
+        <div>
+            0 <input type="range" value="20"> 100
+        </div>
+        <div>
+            <b>tuổi</b><br>
+            <input type="number" name="tuoi">
+        </div>
+        <div>
+            <b>ngày tháng năm sinh</b>
+            <input type="date" name="ngay thang nam">
+        </div>
+<div>
+    <input type="color" name=" id=">
+</div>
+<div> 
+    <b>chọn ảnh đại diện</b>
+    <input type="file">
+</div>
+<div>
+    <b>mật khẩu</b>
+    <input type="password">
+</div>
+<div>
+    <input type="reset">
+</div>
+
+  <div>
+    <input type="submit">
+    
+  </div>  
+    </form> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UhRAiy-PYbk?si=1HE0qQvmllP49oG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<video controls width="560" height="315">
+        <source src="1.mp4" type="video/mp4">
+    </video>
+
+    <audio controls>
+        <source src="BauTroiMoi.mp3" type="audio/mp3">
+    </audio>
+</ul>
+</body>
+</html>
