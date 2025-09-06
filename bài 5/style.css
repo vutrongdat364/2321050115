@@ -52,11 +52,28 @@ width:20%;
     border-radius: 10px 10px 0px 0px;
 }
 .tintuc-danhsach{
-    display:flex
+    display:flex;
     justify-content: space-between;
 }
 .baiviet{
     height:200px;
     background-color: grey;
     width:32%;
+    display:flex;
+    overflow:hidden;
+    flex-direction: column;
+}
+.baiviet img{
+            width:100%;
+            height:190px;
+            object-fit: cover;
+}
+.info{
+    padding:10px;
+
+}
+.title{
+    font-size: 13px;
+    font-weight: bold;
+   
 }
