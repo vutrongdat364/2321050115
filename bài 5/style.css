@@ -38,8 +38,8 @@ width:80%;
 border-radius: 10px; /*viền bo cong tròn */
 }
 .noidung-phai{
-height:1000px;
-background-color: red;
+/*height:1000px;
+background-color: red;*/
 width:20%;
 }
 .tieude{
@@ -77,3 +77,80 @@ width:20%;
     font-weight: bold;
    
 }
+
+
+.thongbao{
+    background-color: #2fa4e7;
+    padding:20px;
+    color:white;
+    
+    font-size:x-large;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;}
+.thongbao ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+
+}
+.thongbao ul li{
+    margin-bottom: 8px;
+}
+.thongbao ul li a{
+    text-decoration: none;
+    color :black
+}
+.thongbao ul li a:hover{
+    color:blue
+} 
+.thongbao-nghi img{
+            width:100%;
+            height:190px;
+                object-fit: cover;}
+  .login,
+.app {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login h3,
+.app h3 {
+  background-color: #2fa4e7;
+    padding:20px;
+    color:white;
+    
+    font-size:x-large;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.login input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background: #1976d2;
+}
+
+.app img {
+  width: 100%;
+  border-radius: 3px;
+}              
