@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <script>
+        document.writeln("hello <br> "+"123");
+        //đê khai báo biến js dùng let hoặc var
+        let hoten ="dat";
+        document.writeln(hoten);
+//chia /
+//nhân *
+        let sothunhat=10;
+        let sothuhai=5;
+        let ketqua=0;
+        ketqua = sothunhat*sothuhai;
+        ketqua++
+        // để ++ đằng sau ko trả kết quả tăng 1
+        // sothunhat+=sothuhai sẽ là sothunhat=sothunhat+sothuhai
+        // == so sánh bằng trả về true hoặc false
+        // != so sánh khác
+        // === so sánh bằng cả  giá trị lẫn kiểu dữ liệu
+        // !== 
+        // ! phủ định dùng đặt trước
+        document.writeln(++ketqua);
+        let thongtinsinhvien={
+            hoten:"vũ trọng đạt",
+            mssv:2321050115,
+            gioitinh:true,
+            tuoi:20,
+            lop:"công nghệ thông tin k68",
+         diachi:{
+            thanhpho:"ninh bình",
+            phuong:"đông hoa lư",
+            sonha:81
+         }
+        }
+        let diachinha={
+            thanhpho:"ninh bình",
+            phuong:"đông hoa lư",
+            sonha:81
+        }
+        thongtinsinhvien.diachi=diachinha;
+
+        document.writeln("xin chào bạn:"+thongtinsinhvien.hoten+thongtinsinhvien.mssv+thongtinsinhvien.diachi.thanhpho);
+        
+        let namnay=2025;
+        
+        document.writeln("bạn"+ thongtinsinhvien.ten+"sinh năm"+(namnay-thongtinsinhvien.tuoi));
+
+    </script>
+    
+</body>
+</html>

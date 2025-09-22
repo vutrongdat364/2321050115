@@ -165,15 +165,7 @@ footer{
   margin: 5px 0;
 }
 
-.socials a {
-  color: #ccc;
-  margin-right: 10px;
-  font-size: 18px;
-}
 
-.socials a:hover {
-  color: #f36f21;
-}
 
 .footer-bottom {
   border-top: 1px solid #333;
