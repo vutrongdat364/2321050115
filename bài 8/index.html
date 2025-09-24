@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+
+let thongTinDonHang = {
+            maDonHang: "12345678",
+            thongTinKhachHang: {
+                hoTen: "MinhHieu",
+                soDienThoai: "0987654321",
+                trangThaiThanhVienThanThiet: false,
+            },
+            danhSachSanPham: {
+                sp01: {
+                    maSanPham: "1",
+                    tenSanPham: "Matcha",
+                    soLuong: 10,
+                    giaTien: "10000",
+                },
+                sp02: {
+                    maSanPham: "2",
+                    tenSanPham: "Cà phê",
+                    soLuong: 10,
+                    giaTien: "20000",
+                },
+                sp03: {
+                    maSanPham: "3",
+                    tenSanPham: "Trà sữa",
+                    soLuong: 15,
+                    giaTien: "20000",
+                }
+            },
+            thanhToanThanhCong: true,
+            diaChiGiaoHang: "Đông Ngạc"
+        }
+       let tongSP1 = thongTinDonHang.danhSachSanPham.sp01.giaTien * thongTinDonHang.danhSachSanPham.sp01.soLuong;
+        let tongSP2 = thongTinDonHang.danhSachSanPham.sp02.giaTien * thongTinDonHang.danhSachSanPham.sp02.soLuong;
+        let tongSP3 = thongTinDonHang.danhSachSanPham.sp03.giaTien * thongTinDonHang.danhSachSanPham.sp03.soLuong;
+
+        let tongTien = tongSP1 + tongSP2 + tongSP3;
+
+        document.writeln("Tong tien don hang = " + tongTien);
+        document.writeln("độ dài mã đơn hàng " + thongTinDonHang.maDonHang.length);
+        var myString = "hello";
+        document.writeln(myString[2]);
+        document.writeln(myString.slice(1,2));
+        document.writeln(myString.replace("hello","hi"));
+        document.writeln(myString.toLowerCase());
+        document.writeln(myString.indexOf("e"));
+        document.writeln(myString.includes("e"));//nếu có thì trả lại true còn không có thì f
+        document.writeln(myString.split(""));
+        document.writeln(myString.split("l"));
+        let danhsach=["vu trong dat"];
+        document.writeln(danhsach[l].startsWith("vu"))
+        let so="123";
+        document.writeln(typeof(so));
+        document.writeln(typeof(Number(so)));
+        document.writeln(isNaN(so));
+        document.writeln(typeof(50));
+        let today=new Date();
+        document.writeln(Date);
+        document.writeln(today.getFullYear());
+
+
+
+
+    </script>
+</body>
+</html>
